@@ -5,7 +5,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lint:staged": "npx lint-staged"
+    "lint:staged": "npx lint-staged",
+    "release": "release-it"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -16,6 +17,7 @@
     "@babel/eslint-parser": "^7.12.16",
     "@commitlint/cli": "16",
     "@commitlint/config-conventional": "6",
+    "@release-it/conventional-changelog": "4",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
@@ -53,11 +55,17 @@
     }
   },
   "publicConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  }
 }
