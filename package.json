@@ -1,7 +1,6 @@
 {
-  "name": "@zhoudm5/mytest_0001",
+  "name": "@hxdms/mytest_0001",
   "version": "0.1.1-dev.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -52,6 +51,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publicConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "browserslist": [
     "> 1%",
