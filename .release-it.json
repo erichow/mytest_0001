@@ -3,7 +3,7 @@
     "release": true
   },
   "git": {
-    "commitMessage": "Release: v${version}"
+    "commitMessage": "chore: v${version}"
   },
   "plugins": {
     "@release-it/conventional-changelog": {
