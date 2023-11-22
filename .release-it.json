@@ -3,14 +3,18 @@
     "release": true
   },
   "git": {
-    "commitMessage": "chore(Release): v${version}"
+    "commitMessage": "release: v${version}"
+  },
+  "npm": {
+    "publish": false
+  },
+  "hooks": {
+    "after:bump": "echo 更新版本成功"
   },
   "plugins": {
     "@release-it/conventional-changelog": {
       "preset": "angular",
-      "infile": "CHANGELOG.md",
-      "ignoreRecommendedBump": true,
-      "strictSemVer": true
+      "infile": "CHANGELOG.md"
     }
   }
 }
