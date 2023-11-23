@@ -1,6 +1,6 @@
 {
   "name": "mybase9",
-  "version": "0.2.6-rc.0",
+  "version": "0.2.6-rc.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
