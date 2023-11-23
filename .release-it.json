@@ -10,7 +10,7 @@
     "commitsPath": "",
     "addUntrackedFiles": false,
     "commit": true,
-    "commitMessage": "release: 更新版本至 ${version} | [CI SKIP]",
+    "commitMessage": "release: v${version}",
     "commitArgs": [],
     "tag": true,
     "tagExclude": null,
